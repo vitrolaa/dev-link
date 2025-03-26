@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.light {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(247, 243, 246),
+    rgb(201, 137, 201)
+  );
+  color: black;
+  height: 100vh;
+}
+
+.dark {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(54, 54, 54),
+    rgb(5, 5, 5)
+  );
+  color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title-about {
+  color: red;
+}
